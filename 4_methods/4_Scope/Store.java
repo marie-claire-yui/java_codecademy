@@ -27,8 +27,8 @@ public class Store {
     String cookie = "Cookies";
     Store cookieShop = new Store(cookie);
     
-    cookieShop.advertise();
+    cookieShop.advertise(); // output Selling cookies!
   }
 }
-// However, milesDriven, which is declared at the top of the class, can be used inside all methods in the class,
+// However, productType, which is declared at the top of the class, can be used inside all methods in the class,
 // since it is in the scope of the whole class. 
