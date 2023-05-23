@@ -21,8 +21,15 @@ public class Store {
   public static void main(String[] args) {
     Store lemonadeStand = new Store("Lemonade");
     // insde the main() method we call advertise() on lemonadeStand object
+    // we first reference our object lemonadeStand. Then we use the dot operator . to call the method advertise().
+    // Note that we must include parentheses () after our method name in order to call it.
     lemonadeStand.advertise();
     lemonadeStand.advertise();
     lemonadeStand.advertise();
   }
 }
+
+// Code generally runs in a top-down order where code execution starts at the top of a program and ends at the bottom of a program;
+//  however, methods are ignored by the compiler unless they are being called.
+// When a method is called, the compiler executes every statement contained within the method. 
+// Once all method instructions are executed, the top-down order of execution continues
