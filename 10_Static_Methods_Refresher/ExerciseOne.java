@@ -18,7 +18,7 @@ public class ExerciseOne{
 
   }
 }
-
+//
 // Your random number between one and ten is 1
 // The absolute value of -2 is 2
 // 1
