@@ -51,7 +51,8 @@ public class ATM{
 // Total number of ATMs: 2
 // Total amount of money in all ATMs: 1500
 // Total amount of money in all ATMs: 800
-
+// compared to the previous exercise, this time totalMoney and numATMs change values
+// indeed we have modified within constructor and method the static variables
    }
 
 }
