@@ -65,4 +65,4 @@ System.out.println(secondATM.money); //500
 //   System.out.println(Dog.genus); // Prints Canis
 //   System.out.println(snoopy.genus); // Prints Canis
 //   System.out.println(ringo.genus); // Prints Canis
-// }
+//  }
