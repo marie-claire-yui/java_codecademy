@@ -16,3 +16,26 @@
 
 //     Parent class, superclass, and base class refer to the class that another class inherits from (like Shape).
 //     Child class, subclass, and derived class refer to a class that inherits from another class (like Triangle).
+
+
+//define a child class so that it inherits from a parent class by using the keyword "extends"
+class Shape {
+ 
+    // Shape class members
+   
+  }
+   
+  class Triangle extends Shape {
+   
+    // additional Triangle class members
+   
+  }
+
+
+
+  // Until now, we’ve only been working with one class and one file. 
+  //However, most Java programs utilize multiple classes, each of which requires its own file.
+  // Only one file needs a main() method — this is the file we will run.
+
+  //Note: the various classes in our Java package — even though they are in different files 
+  //— will have access to each other, so we can instantiate one class inside of another.
