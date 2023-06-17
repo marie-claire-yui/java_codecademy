@@ -52,7 +52,7 @@ public class ATM{
 // Total amount of money in all ATMs: 1500
 // Total amount of money in all ATMs: 800
 
-  }
+   }
 
 }
 
