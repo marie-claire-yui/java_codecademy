@@ -19,14 +19,21 @@ public class Dog {
   }
   
   public static void main(String[] args) {
-    System.out.println("Main method started");
-    Dog fido = new Dog("poodle", false, 4);
-    Dog nunzio = new Dog("shiba inu", true, 12);
-    boolean isFidoOlder = fido.age > nunzio.age;
+    System.out.println("Main method started"); // Main method started
+    Dog fido = new Dog("poodle", false, 4); // Constructor invoked!
+    Dog nunzio = new Dog("shiba inu", true, 12);// Constructor invoked!
+    boolean isFidoOlder = fido.age > nunzio.age; 
     int totalDogYears = nunzio.age + fido.age;
-    System.out.println("Two dogs created: a " + fido.breed + " and a " + nunzio.breed);
-    System.out.println("The statement that fido is an older dog is: " + isFidoOlder);
-    System.out.println("The total age of the dogs is: " + totalDogYears);
-    System.out.println("Main method finished");
+    System.out.println("Two dogs created: a " + fido.breed + " and a " + nunzio.breed); // Two dogs created: a poodle and a shiba inu  
+    System.out.println("The statement that fido is an older dog is: " + isFidoOlder);// The statement that fido is an older dog is: false
+    System.out.println("The total age of the dogs is: " + totalDogYears);// The total age of the dogs is: 16
+    System.out.println("Main method finished");// Main method finished
   }
 }
+
+
+
+
+     
+
+
