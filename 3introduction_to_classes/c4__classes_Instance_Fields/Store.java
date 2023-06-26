@@ -21,10 +21,14 @@ public class Store {
     // main method
     public static void main(String[] args) {
           // body of main method
-      System.out.println("This code is inside the main method.");
+      System.out.println("This code is inside the main method."); //   This code is inside the main method.
       
-      Store lemonadeStand = new Store();
+      Store lemonadeStand = new Store(); // I am inside the constructor method.
       
-      System.out.println(lemonadeStand);
+      System.out.println(lemonadeStand); // Store@372f7a8d
     }
   }
+
+
+
+
