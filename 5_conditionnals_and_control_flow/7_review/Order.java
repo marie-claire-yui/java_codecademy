@@ -50,3 +50,13 @@ public class Order {
     cargaison2.ship();
   }
 }
+
+// High value item!
+// High value item!
+
+// Shipping
+// Shipping cost:
+// 0.5
+// Order not ready
+// Shipping cost:
+// 0.5
